@@ -1,0 +1,13 @@
+﻿h2 {
+    text-align: center;
+    color: blue;
+}
+div {
+    border: 1px solid gray;
+    padding: 8px;
+}
+p {
+    text-indent: 80px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
