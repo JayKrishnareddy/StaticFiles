@@ -45,13 +45,16 @@ namespace StaticFiles
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "StaticFiles v1"));
             }
+            #region Static File Setup
             app.UseFileServer(new FileServerOptions
             {
                 FileProvider = new PhysicalFileProvider(
                     Path.Combine(Directory.GetCurrentDirectory(), "StaticFiles")),
                 RequestPath = "/StaticFiles",
                 EnableDefaultFiles = true
-            }) ;
+            });
+            #endregion
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
