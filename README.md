@@ -9,3 +9,5 @@
 If you want to learn more about this Article 👇🏻
 
 [**C# Corner**](https://www.c-sharpcorner.com/article/using-static-files-html-javascript-in-web-api/ "C# Corner")
+
+[**Medium**](https://medium.com/nerd-for-tech/using-static-files-html-javascript-in-asp-net-core-web-api-f354676d385 "Medium")
