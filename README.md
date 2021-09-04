@@ -1,5 +1,7 @@
 ## Using Static Files (HTML,Javascript) in Web API 
 
+![picture alt](https://github.com/JayKrishnareddy/StaticFiles/blob/master/X1.png "Static Files - C#")
+
 ### What we are going to cover in this topic?
 - What are static files
 - Where should we place this static files
